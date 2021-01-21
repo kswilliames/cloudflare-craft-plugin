@@ -15,9 +15,6 @@ use Pdp;
 class UrlHelper
 {
     private $RZD_URL = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt';
-    // Public Methods
-    // =========================================================================
-
     /**
      * Only return URLs that can be sent to Cloudflare.
      *
@@ -108,5 +105,4 @@ class UrlHelper
         $registrableDomain = $domain->getRegistrableDomain();
         return $registrableDomain;
     }
-
 }
