@@ -14,7 +14,7 @@ use Pdp;
 
 class UrlHelper
 {
-    private $RZD_URL = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt';
+    private const RZD_URL = 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt';
     /**
      * Only return URLs that can be sent to Cloudflare.
      *
